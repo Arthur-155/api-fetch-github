@@ -1,0 +1,184 @@
+body{
+    background-color: #24292e;
+    width: 100%;
+}
+
+main{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 0;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 70%;
+    max-width: 950px;
+    border-radius: 20px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px;
+    height: auto;
+}
+
+#user-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%; 
+    gap: 15px;
+}
+
+#user-data img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid hotpink;
+}
+
+#user-data h2 {
+    margin-bottom: 10px;
+}
+
+#user-data p {
+    margin: 5px 0;
+}
+
+.container input#insert-text{
+    border: 1px solid grey;
+    border-radius: 7px;
+    width: 400px;
+    height: 40px;
+    margin: 10px;
+    margin-bottom: 0;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+input#search-button{
+    width: 200px;
+    height: 40px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 20px 0;
+    font-weight: 300;
+}
+
+input#seach-button:hover{
+    background-color: hotpink;
+    color: white;
+    border-color: white;
+}
+
+.fa-github{
+    color: white;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+.repo-name{
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.commit.message{
+    color: grey;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+li{
+    gap: 25px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+a{
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+}
+a.link{ 
+    display: flex;
+    width: 49%;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.forks-count{
+    background-color: #5252b3;
+    padding: 3px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 100;
+}
+
+.stargazers-count{
+    background-color: #5252b3;
+    padding: 3px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 100;
+}
+
+.watchers-count{
+    background-color: #5252b3;
+    padding: 3px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 100;
+}
+
+.language{
+    background-color: #5252b3;
+    padding: 3px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 100;
+}
+
+.info a{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.info a:hover{
+    background-color: hotpink;
+    color: white;
+}
+
+
+ol{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+    padding: 0;
+    justify-content: center;
+}
+
